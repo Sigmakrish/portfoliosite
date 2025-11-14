@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Krishnashis Goswami — Portfolio</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<header>
+  <img src="me.jpg" class="avatar-img" alt="Profile Photo">
+  <div>
+    <h1>Krishnashis Goswami</h1>
+    <p class="lead">3rd year B.E. Computer Science — Interested in Cybersecurity, AI/ML & Software Development</p>
+    <nav>
+      <a class="btn" id="homeBtn">Home</a>
+      <a class="btn" href="#about">About</a>
+      <a class="btn" href="#projects">Projects</a>
+      <a class="btn" href="#skills">Skills</a>
+      <a class="btn" href="#contact">Contact</a>
+      <a class="btn" id="downloadResume" href="resume.pdf" download>Download Resume</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="card two-col" id="about">
+<div>
+<h2>About</h2>
+<p class="muted">Motivated computer science student skilled in Python, Java, and Linux. Interested in cybersecurity, AI/ML, and full-stack development.</p>
+
+
+<h3>Education</h3>
+<ul class="muted">
+<li>B.E. Computer Science — UIT Burdwan (2022–26), CGPA: 7.1</li>
+<li>Class XII — Amrita Vidyalayam (2022), 68%</li>
+<li>Class X — Amrita Vidyalayam (2020), 93.8%</li>
+</ul>
+
+
+<h3 id="projects">Projects</h3>
+<div class="projects">
+<article class="project">
+<h4>Bank Management System</h4>
+<p class="muted">SQL + Python system for banking operations.</p>
+</article>
+<article class="project">
+<h4>Data Leakage Detection</h4>
+<p class="muted">Detects password reuse and alerts user.</p>
+</article>
+<article class="project">
+<h4>Fraud Detection System</h4>
+<p class="muted">AI/ML model for fraud classification.</p>
+</article>
+<article class="project">
+<h4>To‑Do List App</h4>
+<p class="muted">Java GUI app for task management.</p>
+</article>
+<article class="project">
+<h4>Autmodeler (AI/ML)</h4>
+<p class="muted">Runs ML models on uploaded datasets.</p>
+</article>
+</div>
+</div>
+
+
+<aside>
+<div class="card">
+<h3 id="skills">Skills</h3>
+<div class="skills">
+<span class="skill">Python</span>
+<span class="skill">Java</span>
+<span class="skill">Linux</span>
+<span class="skill">Termux</span>
+<span class="skill">AI/ML Basics</span>
+<span class="skill">Cybersecurity</span>
+<span class="skill">Networking</span>
+</div>
+
+
+<h4>Certifications</h4>
+<ul class="muted">
+<li>AI & ML Internship — IIT Bhubaneswar</li>
+<li>Python Programming — PANTECH</li>
+<li>React JS Course — PANTECH</li>
+<li>TATA Cybersecurity Simulation</li>
+</ul>
+
+
+<h4>Contact Info</h4>
+<p class="muted">+91 7810815392<br>krishnashisgoswami@gmail.com<br>Durgapur, West Bengal</p>
+</div>
+</aside>
+</section>
+
+<section class="card" id="contact">
+  <h3>Contact Me</h3>
+  <p class="contact-email">
+    Phone: <a href =tel:+917810815392>+91 7810815392</a><br>
+    Email: <a href="mailto:krishnashisgoswami@gmail.com">krishnashisgoswami@gmail.com</a>
+  </p>
+</section>
+
+
+
+<label>Email</label>
+<input id="email" type="email" required>
+
+
+<label>Message</label>
+<textarea id="message" rows="4" required></textarea>
+
+
+<button type="submit" class="btn primary-btn">Send</button>
+</form>
+<p id="formResult" class="muted"></p>
+</section>
+
+
+<section class="card">
+<h3>Resume</h3>
+<a class="btn" href="resume.pdf" download>Download Resume (PDF)</a>
+</section>
+</main>
+
+
+<footer>
+<p class="muted">Made with ❤️ — Krishnashis Goswami • <span id="year"></span></p>
+</footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
